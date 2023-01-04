@@ -1,0 +1,160 @@
+1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Fav Food</title>
+</head>
+<body bgcolor="grey">
+    <div id="heading" align="center">
+    <h3 id="siteName">SOME OF MY FAV</h3>
+    <h1 id="siteName">FOODS</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg/250px-Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg" id="titleimage">
+    </div>
+    <div style="background-color:gold"  align="center">
+    <h3 id="favFood1">PIZZA</h3>
+    <p id="foodDescription">Pizza is a pizza</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg/250px-Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg" id="favFoodimage1">
+</div>
+<div  style="background-color:violet"  align="center">
+    <h3 id="favFood2">FRIED CHICKEN</h3>
+    <p id="foodDescription2">Fried Chicken is a fried chicken</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg/250px-Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg" id="favFoodimage2">
+</div>
+<div  style="background-color:skyblue"  align="center">
+    <h3 id="favFood3">SALAD</h3>
+    <p id="foodDescription">Salad is a Salad</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg/250px-Winterswijk_%28NL%29%2C_Woold%2C_Boven_Slinge_--_2014_--_3170.jpg" id="favFoodimage3">
+</div>
+</body>
+</html>
+2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <h2 id="titleDescription">Beautiful Commercial Photography</h2>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="./1.png" alt="pic1" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork"> Our Work</h3>
+        <img src="./1.png" alt="pic2" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="./1.png" alt="pic3" id="secondImage"><p id="firstImageName"> Food Photography </p>
+        
+    </div>
+    <div class="image">
+        <img src="./1.png" alt="pic4" id="thirdImage">
+        <p id="secondImageName">Aerial Photography</p>
+    </div>
+    <div class="image">
+        <img src="./1.png" alt="pic5" id="fourthImage">
+        <p id="thirdImageName">Abstract Photography</p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>
+
+
+
+3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Salad</title>
+</head>
+<body bgcolor="lightgreen">
+    <center>
+        <h1 id="titleName">Vegetable Salad</h1>
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/vegetable-salad-recipe.jpg" id="vegetableSaladImage" width="30%">
+    <h2 id="benefits">Benefits of Vegetable</h2>
+    <p id="benefitsParagraph">Vegetable salad is vegetable salad</p>
+    <h2 id="steps">Steps to make Vegetable Salad</h3>
+    <ul id="stepsForVegetableSalad">
+        <li id="stepsForVegetableSalad">Cut Well</li>
+        <li id="stepsForVegetableSalad">Stir Well</li>
+        <li id="stepsForVegetableSalad">Eat Well</li>
+        <li id="stepsForVegetableSalad">Cut Well</li>
+        <li id="stepsForVegetableSalad">Stir Well</li>
+        <li id="stepsForVegetableSalad">Eat Well</li>
+        <li id="stepsForVegetableSalad">Eat Well</li>
+    </ul>
+    
+    <footer id="footerText">Vegetable Salad</footer>
+</center>
+</body>
+</html>
+ 
+4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Book</title>
+</head>
+<body background="https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000" style="color:white">
+    <div align="center">
+        <img src="https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000" id="backgroundImage">
+    <h1 id="TitleName">FRIENDS BOOK</h1>
+    <form>
+        <label id="yourName">Your name : </label><input type="text" id="textBox"><br>
+        <label id="field1">1. A Message for me! </label> <br>
+        <input type="text" id="textBox1"> <br>
+        <label>2. A nick for me? </label> <br>
+        <input type="text" id="textBox2"> <br>
+        <label>3. Have you ever lied to me? </label> <br>
+        <input type="radio" value="yes" id="yesMayBe"> Yes
+        <input type="radio" value="maybe" id="yesMayBe"> Maybe <br>
+        <label>4. How do you feel when you talk to me? </label> <br>
+        <input type="radio" value="happy"> Happy
+        <input type="radio" value="irritated"> Irritated <br>
+        <label>5. Do you like to go on a road trip with me? </label><br>
+        <input type="radio" value="yes"> Yes
+        <input type="radio" value="no"> No <br>
+        <label>6. Best color that suits me? </label> <br>
+        <input type="checkbox" value="red"  id="bestColour"> Red
+        <input type="checkbox" value="black"  id="bestColour"> Black
+        <input type="checkbox" value="white"  id="bestColour"> White
+        <input type="checkbox" value="blue"  id="bestColour"> Blue
+        <input type="checkbox" value="green"  id="bestColour"> Green <br>
+        <label>7. The best moment in our friendship? </label> <br>
+        <input type="text"> <br>
+    </form>
+</div>
+</body>
+</html>
